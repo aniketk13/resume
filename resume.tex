@@ -69,7 +69,7 @@
   }
 }
 \hypersetup{%
-  colorlinks=true,% hyperlinks will be coloured
+  colorlinks=false,% hyperlinks will be coloured
   linkcolor=blue,% hyperlink text will be green
   linkbordercolor=blue,% hyperlink border will be red
 }
@@ -113,17 +113,11 @@
 
 %----------HEADING----------
 
-\begin{center}
-    \textbf{\Huge \scshape Aniket Khajanchi} \\ \vspace{1pt}
-    \href{mailto:ani.khajanchi257@gmail.com}{\color{blue}\underline{ani.khajanchi257@gmail.com}} \\ 
-    \href{https://twitter.com/AniketKhajanchi}{\color{blue}\underline{Twitter}} $|$ 
-    \href{https://linkedin.com/in/aniketkhajanchi}{\color{blue}\underline{LinkedIn}} $|$
-    \href{https://github.com/aniketk13}{\color{blue}\underline{Github}} $|$
-    \href{https://leetcode.com/aniketk13}{\color{blue}\underline{LeetCode}} $|$
-    \href{https://codechef.com/users/aniketk13}{\color{blue}\underline{CodeChef}}
-    
-\end{center}
-
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Aniket Khajanchi}} & Email: \href{mailto:}{ani.khajanchi257@gmail.com}\\
+  GitHub:~~~~\href{https://github.com/aniketk13/}{github.com/aniketk13/} & Mobile:~~~\href{tel:8927048300}{+91-8927048300} \\
+  LeetCode:~~\href{https://leetcode.com/aniketk13/}{leetcode.com/aniketk13/} & LinkedIn:~\href{https://www.linkedin.com/in/aniketkhajanchi/}{linkedin.com/in/aniketkhajanchi}
+\end{tabular*}
 
 % %-----------EXPERIENCE-----------
 % \section{Experience}
@@ -158,40 +152,51 @@
 
 
 %   \resumeSubHeadingListEnd
-
+\section{Summary}
+{Passionate about technology, and exploring the depth in it. Learning by doing is a motto I follow in my career which helps me get better every day. Having a keen interest in APIs, I like building them from scratch that also helps to solve a purpose. While others like to read books, I like to read other people’s code. Aiming to build efficient software to reach to the masses where I could connect with people and cater their problems with my solutions. }
 
 %-----------PROJECTS-----------
 \section{Projects}
 
  \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{\href{https://github.com/aniketk13/Intelli-Tags}{\color{blue}Intelli-Tags }}{[ Android-Kotlin ]}}{Dec 2021}
+          {\textbf{\href{https://github.com/aniketk13/quiz-api}{Quiz-API }}{[ NodeJS, MongoDB, Azure ]}}{July 2022}
+          \resumeItemListStart
+          \resumeItem{\textbf{Problem:} A Quiz-Api for performing Addition, Deletion, Updation and Display of Questions}
+          \resumeItem{\textbf{Solution:} Based on Rest-API architecture, made a crud application which simplifies the whole job just by hitting a few endpoints on the client side.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+\resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/aniketk13/API-Fest}{Inventory Manager }}{[ Fastify, MongoDB ]}}{Feb 2022}
+          \resumeItemListStart
+          \resumeItem{\textbf{Problem:} Application to track orders and automate the heavy inventory management and reduce human labor.}
+          \resumeItem{\textbf{Solution:} Created a CRUD API to manage orders and auto-update respective inventories using Open-API structure}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+ \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/aniketk13/Intelli-Tags}{Intelli-Tags }}{[ Android-Kotlin ]}}{Dec 2021}
           \resumeItemListStart
           \resumeItem{\textbf{Problem:} Instant Hashtags generator for blogs and media content for adequate promotion}
-          \resumeItem{\textbf{Solution:} A smart tool made with Modzy ML models. In simple clicks, instantaneously generates relevant tags for your content and boosts them upto 2x globally to reach the target audience.}
+          \resumeItem{\textbf{Solution:} Built an Application using Modzy (now Smarty) ML models which instantly generates relevant social media tags for your content and boosts content engagement and reach upto 2x globally.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
     
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{\href{https://github.com/aniketk13/Feedback-Prime}{\color{blue}Feedback Prime }}{[ Android-Kotlin ]}}{Oct 2021}
+          {\textbf{\href{https://github.com/aniketk13/Feedback-Prime}{Feedback Prime }}{[ Android-Kotlin ]}}{Oct 2021}
           \resumeItemListStart
            \resumeItem{\textbf{Problem:} Smart Feedback Analysis for Support Engineers which save their work time by 3x}
            \resumeItem{\textbf{Solution:} Using Symbl.ai Async API and Conversation-intelligence, created an app which auto-generates User-experience report.}
-           \resumeItem{Received appreciation from Symbl.ai and could be used as a Business model for providing better User-experience}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
     
    
     
-\resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{\href{https://github.com/aniketk13/Suite-Converter}{\color{blue}Suite Converter }}{[ Python ]}}{Dec 2020}
-          \resumeItemListStart
-           \resumeItem{\textbf{Problem:} Voice Assisted Smart File converter from Command Line for developers}
-           \resumeItem{\textbf{Solution:} Using Voice Recognition and Speech Analysis, performs Inter-Conversion of files, Auto-catches Directory Path and keeps Files organised}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
+
 
 
 
@@ -200,11 +205,10 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages(Proficient)}{: C++, Kotlin, Java} \\
-      \textbf{Languages(Familiar)}{: Python, Javascript } \\
-     \textbf{Frameworks}{: SQL, Firebase  } \\
-     \textbf{Developer Tools}{: Android-Studio, AWS, Azure, Postman, Docker } \\
-     \textbf{Libraries}{: Volley, Material Ui, Room, Retrofit  }
+     \textbf{Languages}{: C++, Kotlin, Java, JavaScript, Python} \\
+     \textbf{Frameworks}{: SQL, Firebase, Node.js, Express, Fastify  } \\
+     \textbf{Developer Tools}{: Android-Studio, AWS, Azure, Postman, Google Cloud, Docker } \\
+     \textbf{Libraries}{: MongoDB, Volley, Material Ui, Room, Retrofit  }
     }}
  \end{itemize}
 
@@ -213,10 +217,11 @@
     \small{\item{
         \resumeItemListStart
                 % \resumeItem{\textbf{\href{Link if any}{Best Achievement on Top}}: Write the best and coolest achievement on top.}
-                \resumeItem{\textbf{{Won \href{https://devpost.com/software/feedback-prime-kbg8um}{\color{blue}API World Hackathon's} and API-Hacks' Sponsor Track from Symbl.ai for Feedback Prime} }}
+                \resumeItem{\textbf{Led a team to {Top-10 in API Fest} organized by Postman}: A global event to spread awareness about APIs and encourage peers to learn and build a product}
+                \resumeItem{\textbf{{Won \href{https://devpost.com/software/feedback-prime-kbg8um}{API World Hackathon's} and {API-Hacks'} Sponsor Track from Symbl.ai for Feedback Prime} }: Received recommendation from Symbl.ai to use this as an actual business model}
                 % \resumeItem{\textbf{\href{https://devpost.com/software/cryptodrive}{Write some winning stuff here}}}
-                \resumeItem{\href{https://studentambassadors.microsoft.com/en-US/profile/124303}{\color{blue}Microsoft Student Ambassador-Alpha} (One of the biggest global community for students) }
-                \resumeItem{\href{https://api.badgr.io/public/assertions/smxpDApNQkawRdyLq88rTA}{ \color{blue}Postman Student Expert}}
+                \resumeItem{\textbf{\href{https://studentambassadors.microsoft.com/en-US/profile/124303}{Microsoft Student Ambassador-Alpha}} : One of the biggest global community which brings students from all over the world who are passionate of technology, learning and helping the community }
+                \resumeItem{\textbf{\href{https://api.badgr.io/public/assertions/smxpDApNQkawRdyLq88rTA}{ Postman Student Expert}} : A program designed to spread API knowledge and help the students get trained on APIs.}
       \resumeItemListEnd
     }}
  \end{itemize}
@@ -225,7 +230,13 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Chandigarh University}{Mohali, Punjab}
-      {Sophomore, B.E in Computer Science and Engineering}{August 2020 -- Expected August. 2024}
+      {Chandigarh University - 8.49 CGPA}{Mohali, Punjab}
+      {Junior, B.E in Computer Science and Engineering}{August 2020 -- August 2024*}
   \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Hem Sheela Model School - 94.6\%}{Durgapur, West Bengal}
+      {12th, Non-Medical Computer Science}{April 2018 -- March 2020}
+  \resumeSubHeadingListEnd
+ 
 \end{document}
